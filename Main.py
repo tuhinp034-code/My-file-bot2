@@ -3,8 +3,8 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters
 from telegram import Update
 from telegram.ext import ContextTypes
 
-TOKEN = os.environ.get("TOKEN")
-CHANNEL_ID = os.environ.get("CHANNEL_ID")
+TOKEN = os.environ.get("8605688893:AAFFTwi2HiyB4FKRWKLCXVhX91nfqa4bjZ4")
+CHANNEL_ID = os.environ.get("-1004334993882")
 
 async def handle_file(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Forward file to private channel
