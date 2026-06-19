@@ -4,8 +4,8 @@ from telegram import Update
 from telegram.ext import ContextTypes
 
 # HARDCODE YOUR VALUES HERE
-TOKEN = "8605688893:AAFF..."  # Paste your token here inside the quotes
-CHANNEL_ID = -100433499388    # Paste your channel ID here (no quotes)
+TOKEN = 8605688893:AAFFTwi2HiyB4FKRWKLCXVhX91nfqa4bjZ4  # Paste your token here inside the quotes
+CHANNEL_ID = -1004334993882    # Paste your channel ID here (no quotes)
 
 async def handle_file(update: Update, context: ContextTypes.DEFAULT_TYPE):
     msg = await context.bot.forward_message(
